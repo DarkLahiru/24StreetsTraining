@@ -17,7 +17,7 @@ function App() {
 
                 <Navbar/>
                 <Switch>
-                    <Route path="/" exact component={ImageSlider}/>
+                    <Route path="/"  exact component={ImageSlider}/>
                     <Route path="/page/about" component={About}/>
                     <Route path="/page/imageSlider" component={ImageSlider}/>
                 </Switch>
